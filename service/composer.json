@@ -1,0 +1,14 @@
+{
+    "name": "dingdayu/xiaodu",
+    "description": "xiaodu service",
+    "type": "project",
+    "authors": [
+        {
+            "name": "dingdayu",
+            "email": "614422099@qq.com"
+        }
+    ],
+    "require": {
+        "dingdayu/baidu-bce-ocr-sdk": "^1.1"
+    }
+}
