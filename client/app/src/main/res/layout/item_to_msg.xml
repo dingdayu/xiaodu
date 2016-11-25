@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="right">
+
+
+    <TextView
+        android:text="2016年11月07日02:16:24"
+        android:textSize="12sp"
+        android:textColor="#a3a2a2"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_to_msg_date"
+        android:textAlignment="center" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right"
+        android:paddingTop="2dp">
+
+        <TextView
+            android:id="@+id/id_to_msg_info"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chatto_bg_normal4"
+            android:layout_marginLeft="20dp"
+            android:layout_toLeftOf="@+id/head"/>
+
+        <ImageView
+            android:id="@+id/id_to_msg_img"
+            android:textSize="16sp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chatto_bg_normal4"
+            android:layout_marginLeft="20dp"
+            android:layout_toLeftOf="@+id/head"
+            android:visibility="gone"/>
+
+        <LinearLayout
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentRight="true">
+            <ImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:paddingBottom="3dp"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:src="@drawable/me"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:text="我"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</LinearLayout>
